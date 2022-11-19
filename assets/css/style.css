@@ -1,0 +1,78 @@
+body{
+    font-family: 'Carter One', cursive;
+    color: #7743DB;
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #FCE2DB 100%);
+    background-repeat: no-repeat;
+}
+
+.title h1{
+    margin: 0;
+    padding-top: 1em;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+.square-box{
+    display: flex;
+    justify-content: space-around;
+}
+.squares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin: 5rem 0 5rem;
+    border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
+    box-shadow: 10px 5px 10px 0 rgba(0,0,0,0.5);
+}
+#square1{
+    background-color: green;
+}
+#square2{
+    background-color: red;
+}
+#square3{
+    background-color: brown;
+}
+#square4{
+    background-color: blue;
+}
+
+
+.message-box{
+    display: flex;
+    justify-content: center;
+}
+#message{
+    font-size: xx-large;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    text-shadow: 1px 1px 2px black;
+}
+
+.pintor-box{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: x-large;
+    text-align: center;
+}
+
+.pintor-box input{
+    margin: 1em 1em;
+    box-shadow: 10px 5px 10px 0 rgba(0,0,0,0.5);
+}
+
+.pintor-box p{
+    text-shadow: 1px 1px 2px black;
+}
+
+.colors-box{
+    display: flex;
+    justify-content: center;
+}
