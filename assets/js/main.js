@@ -55,7 +55,7 @@ let color = document.addEventListener("keydown", (tecla) => {
     message.style.backgroundColor = "";
     message.style.color = "#7743DB";
     message.innerHTML =
-      "No tienes ningún color seleccionado. El AmongUs volverá a su color original.";
+      "No tienes ningún color seleccionado. Al hacer click sobre un AmongUs, este volverá a su color original.";
   }
 });
 
